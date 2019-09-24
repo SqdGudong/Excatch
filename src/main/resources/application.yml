@@ -1,0 +1,26 @@
+spring :
+  mail:
+    host: smtp.qq.com #
+    port: 587 #
+    username: 1215831972@qq.com
+    receiveList:
+      - 1215831972@qq.com
+    password: iahyzbqhbetxfffa
+    protocol: smtp
+    default-encoding: UTF-8
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 5000
+alarmhelper:
+  path: F:\\exception\\
+  host: smtp.qq.com #
+  port: 587 #
+  username: 1215831972@qq.com
+  receiveList:
+    - 1215831972@qq.com
+  password: iahyzbqhbetxfffa
+  protocol: smtp
+  default-encoding: UTF-8
