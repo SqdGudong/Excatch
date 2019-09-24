@@ -11,6 +11,7 @@ public class ExcatchApplicationTests {
 
     @Test
     public void contextLoads() {
+		System.out.println("c1");
     }
 
 }
